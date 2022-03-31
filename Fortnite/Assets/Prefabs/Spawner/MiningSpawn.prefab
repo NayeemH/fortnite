@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5916864539860484142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5916864539860484141}
+  - component: {fileID: 5916864539860484140}
+  m_Layer: 0
+  m_Name: MiningSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5916864539860484141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5916864539860484142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 724.4, y: 0, z: 456.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5916864539860484140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5916864539860484142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057fa942d12e0814e8e7f27267aaac1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centrePos: {x: 725, y: 0, z: 456}
+  spawnRadius: 5
+  miningmat:
+  - {fileID: 2293984731424159278, guid: e47f6ae7f074da4419c1d9b3e03960ba, type: 3}
+  - {fileID: 8881680849030390458, guid: 88e4e0c3b0d5e4242a03f302c7c5f296, type: 3}
+  - {fileID: 8131037492302696629, guid: f50d745d88321504b8e446a19020dce0, type: 3}
+  - {fileID: 2444281076517084121, guid: ef03d01d516f68d4fbea2dd24c775cd3, type: 3}
+  - {fileID: 8291994128041410006, guid: 3e339335895b5e24eaecaaab92efa4d0, type: 3}
+  - {fileID: 839785862023603700, guid: f36eee3f8c999864eadc7cef99b5f7c5, type: 3}
+  spawnCoillisonCheck: 10
+  spawnAmount: 100
