@@ -52,8 +52,6 @@ ExportedObj/
 *.pdb.meta
 *.mdb.meta
 
-# Agora Framework
-*.framework
 
 # Unity3D generated file on crash reports
 sysinfo.txt
